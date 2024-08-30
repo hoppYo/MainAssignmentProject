@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: oldlace;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 14px;
+}
+.styledBody {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: gray;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+}
+.mainContent {
+  display: flex;
+  padding: 15px;
+}
+.webpage {
+  display: flex;
+  padding: 15px;
+}
+.fragments {
+  width: 50%;
+  height: max-content;
+  display: flex;
+  margin-top: 4em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 6px;
+  flex-direction: column;
+  background-color: orangered;
+}
+.fragment {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  margin-top: 1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 6px;
+  flex-direction: column;
+  background-color: orangered;
+  justify-content: center;
+  align-content: center;
+}
+.ulist {
+  margin: 0;
+  padding: 0;
+}
+.frags {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.list {
+  color: white;
+}
+.formContentWrapper {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+}
+.formPicture {
+  width: 45%;
+  height: max-content;
+  background-color: #fcefe2;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.formImg {
+  object-fit: contain;
+  width: 100%;
+}
+.formImgDiv {
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+}
+.imageTexts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.learn {
+  /* display: flex;
+    flex-direction: column; */
+  margin: 0;
+  font-family: "DM Serif Text", serif;
+  color: #000812;
+  font-size: 3.1875rem;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: -0.51px;
+}
+.formContainer,
+.tableContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContent {
+  width: 55%;
+  background-color: white;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.imgFooter {
+  display: flex;
+  flex-direction: column;
+}
+.logoFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.twitter {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 15px;
+}
+.insta {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 15px;
+}
+.facebook {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 15px;
+}
+.linkedin {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 15px;
+}
+.tel {
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+.rightText {
+  margin: 0;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.firstSpan {
+  font-weight: 800;
+  color: black;
+  padding-top: 25px;
+}
+.spanDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.signLink {
+  text-decoration: none;
+  color: rgb(32, 84, 210);
+}
+
+.signUpWrapper {
+  padding-left: 1.5rem;
+}
+.pText {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.pNext {
+  font-weight: 100 !important;
+  line-height: 0.2rem;
+  color: gray;
+}
+.NameLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.nameContainer {
+  display: flex;
+  gap: 20px;
+}
+.input,
+.inputSpecial {
+  padding: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(230 229 214);
+}
+.input:active {
+  outline: none;
+  border: none;
+  border-color: aliceblue;
+}
+
+select {
+  color: gray;
+}
+.orignalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.label {
+  color: gray;
+  font-weight: 100;
+}
+.NameLabelSpecial {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 75%;
+}
+.temsOfUse {
+  padding-top: 20px;
+}
+.lastP {
+  color: rgb(32, 84, 210);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.privacy {
+  color: gray;
+  font-weight: 100;
+}
+.button {
+  width: 70%;
+  background-color: rgb(106, 111, 245);
+  margin-bottom: 30px;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.tableContentWrapper {
+  padding: 20px;
+}
+.firstHeading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.scroll {
+  text-decoration: none;
+  font-style: italic;
+  color: brown;
+}
+.webpageWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 14px;
+}
+span {
+  font-style: italic;
+  padding-top: 30px;
+}
+article,
+.paragraphs {
+  padding: 15px;
+  line-height: 1.5rem;
+  padding-bottom: 8px;
+}
+.hoppy,
+.selfie,
+.throwback,
+.signOut,
+.video,
+.homelink,
+.altschool {
+  width: 250px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+}
+.homelink {
+  text-decoration: underline;
+  color: blue;
+}
+.link, .Audio, .Video {
+  margin: 40px;
+
+}
+.caption,
+h2,
+h3,
+.throwback,
+.signOut,
+.homelink {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+}
+.nav:hover {
+  color: aliceblue;
+}
+.button:hover {
+  background-color: purple;
+}
+.scroll:hover {
+  color: black;
+}
+
+@media (max-width: 750px) {
+  .formPicture {
+    display: none !important;
+  }
+  .fragment {
+    display: none;
+  }
+  .fragments {
+    display: none;
+  }
+  body {
+    background-color: none;
+  }
+}
+
