@@ -9,7 +9,11 @@ body {
 .styledBody {
   height: 100%;
 }
-
+table {
+  border:2 solid;
+  padding:3; 
+  width:100%;
+}
 .header {
   display: flex;
   flex-direction: row;
